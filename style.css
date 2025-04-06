@@ -1,0 +1,156 @@
+body {
+  font-family: "Quattrocento", serif;
+  background-color: #f0fdff;
+  color: #545344;
+  letter-spacing: 2px;
+}
+.bold,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 2px;
+}
+
+.background-color {
+  background-color: #53eaff;
+  border-bottom: 5px solid #41b8d5;
+  border-top: 5px solid #41b8d5;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 6px;
+}
+
+.mont {
+  font-family: "Montserrat", sans-serif;
+}
+
+.boldname {
+  font-family: "Quattrocento", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 2px;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+  color: white;
+  line-height: 1.5em;
+}
+
+.about {
+  letter-spacing: 4px;
+  line-height: 1.5em;
+  width: 70%;
+}
+
+/*Progress Bar*/
+.pgcolor {
+  background-color: #41b8d5;
+  color: white;
+}
+
+.progress {
+  height: 50px;
+}
+
+.progname {
+  font-size: large;
+  letter-spacing: 4px;
+}
+
+/*Contact Section*/
+.btncolor {
+  background-color: #41b8d5;
+  color: white;
+  border: 2px solid #545344;
+  border-radius: 15px;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+.btncolor:hover {
+  background-color: #51dcff;
+  color: #545344;
+  border: 2px solid #545344;
+}
+
+.btnview {
+  background-color: #41b8d5;
+  color: white;
+  border-radius: 5px;
+}
+.btnview:hover {
+  background-color: #51dcff;
+  color: #545344;
+}
+
+@media (max-width: 768px) {
+  .first {
+    font-size: 2rem;
+    margin-bottom: 0 !important;
+    text-align: center;
+  }
+  .second {
+    font-size: 1.8rem;
+    margin-left: 20px;
+  }
+  .third {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .title {
+    font-size: 12px;
+    text-align: center;
+    margin: 10px !important;
+    padding: 0 !important;
+  }
+  .about {
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 10px !important;
+    padding: 0 !important;
+    width: 100%;
+    letter-spacing: 2px;
+  }
+  .boy {
+    width: 200px;
+  }
+  .me {
+    width: 200px;
+    height: 200px;
+  }
+  .progname {
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+  .skil {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .workone {
+    width: 300px;
+  }
+  .worktwo {
+    width: 100px;
+  }
+  .workthree {
+    width: 200px;
+  }
+  .procard {
+    margin: 10px auto;
+  }
+  .card-text {
+    letter-spacing: 2px;
+  }
+  .ab,
+  .herb {
+    overflow: hidden;
+  }
+}
